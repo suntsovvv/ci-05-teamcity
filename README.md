@@ -5,11 +5,11 @@
 ![image](https://github.com/user-attachments/assets/7cb1adf7-9f3e-4de1-aefd-1adb5603d8ce)
 ![image](https://github.com/user-attachments/assets/543015dc-32f5-4067-9817-be1d3a2726bb)
 2. Сделайте autodetect конфигурации.
-
-
+![image](https://github.com/user-attachments/assets/5d0139bf-3173-4f91-a5f9-06d4e6332291)
 3. Сохраните необходимые шаги, запустите первую сборку master.
-
+![image](https://github.com/user-attachments/assets/332922e5-c507-4ce1-9755-f56bc5a76c73)
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
+
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
