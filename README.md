@@ -27,7 +27,16 @@
 ![image](https://github.com/user-attachments/assets/db11f413-efaf-4877-aa0c-1454d353f27c)
 15. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
 17. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
+![image](https://github.com/user-attachments/assets/e7b8577d-470d-4250-aac6-3eb9542af8ca)
+
 18. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
+![image](https://github.com/user-attachments/assets/5ddbbf39-3343-45f2-b3ab-4b1da8c27773)
+
 19. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
+![image](https://github.com/user-attachments/assets/dab84db8-142f-4f74-a757-bd6523aadb79)
+
 20. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
+![image](https://github.com/user-attachments/assets/848eab5d-3ec5-4b01-9e30-52bcf51c5ae2)
+
 21. В ответе пришлите ссылку на репозиторий.
+https://github.com/suntsovvv/example-teamcity
